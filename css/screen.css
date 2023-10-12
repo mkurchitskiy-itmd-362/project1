@@ -28,8 +28,15 @@ body {
 
 #headline-container {
     padding: .5em;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
     background-color: #808080;
+}
+
+/* === Change logo up === */
+#headline-container h2 {
+    
 }
 
 #info-container {
