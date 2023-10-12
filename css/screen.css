@@ -21,7 +21,9 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
-
+body {
+    font-family: 'newsreader', 'Helvetica Neue', 'Arial', 'sans-serif';
+}
 
 /* ===== STATE STYLES ======= */
 
