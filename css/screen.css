@@ -27,10 +27,11 @@ body {
 }
 
 #headline-container {
-    padding: .5em;
+    padding: .35em;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    font-size: 1.2em;
     background-color: #808080;
 }
 
