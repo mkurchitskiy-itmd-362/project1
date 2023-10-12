@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&display=swap');
+
+/* ===== BASE STYLES ===== */
+
+/*
+  Major Sixth Modular Scale:
+  http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+
+html {
+  font-size: 1.375em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 1.182em; /* 26px / ~ 120% */
+  text-rendering: optimizeLegibility;
+}
+
+label {
+  display: block;
+}
+
+/* ===== LAYOUT STYLES ====== */
+
+
+
+/* ===== STATE STYLES ======= */
+
+
