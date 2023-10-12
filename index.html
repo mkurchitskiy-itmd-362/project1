@@ -8,39 +8,41 @@
     <link rel="stylesheet" media="screen" href="css/screen.css">
   </head>
   <body>
-    <div id="headline-container">
+    <div class="headline-container">
       <h2>MM</h2>
       <h1>Motor Magazine</h1>  
     </div>
-    <div id="info-container">
+    <div class="info-container">
       <h3>Latest news about cars!</h3>
       <p>Publishing the newest and greats vehicles out there. Know everything about the engines, body, body train and more. With many exclusive cars only seen here.</p>
       <p>Everyone is welcome to join</p>
       <p>Sign up of the lastest information</p>
     </div>
-    <div id="form-container">
+    <div class="form-container">
       <form id="contact-form" method="get" action="#null" autocomplete="on">
           <p>Sign up</p>
-          <div id="username-form">
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username">
-          </div>
-          <div id="email-form">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
-          </div>
-          <div id="number-form">
-            <label for="number">Number:</label>
-            <input type="tel" name="number" id="number" required required pattern="^\d{10}$">
-          </div>
-          <div id="engine-form">
-            <label for="engine-type">What engine do you have:</label>
-            <select id="engine-type" name="engine-type">
-              <option value="V Engines">V Engines</option>
-              <option value="Inline Engines">Inline Engines</option>
-              <option value="Flat Engines">Falt Engines</option>
-              <option value="Rotary Engines">Rotary Engines</option>
-            </select>
+          <div class="question-form">
+            <div id="username-form">
+              <label for="username">Username:</label>
+              <input type="text" name="username" id="username">
+            </div>
+            <div id="email-form">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+            </div>
+            <div id="number-form">
+              <label for="number">Number:</label>
+              <input type="tel" name="number" id="number" required required pattern="^\d{10}$">
+            </div>
+            <div id="engine-form">
+              <label for="engine-type">What engine do you have:</label>
+              <select id="engine-type" name="engine-type">
+                <option value="V Engines">V Engines</option>
+                <option value="Inline Engines">Inline Engines</option>
+                <option value="Flat Engines">Falt Engines</option>
+                <option value="Rotary Engines">Rotary Engines</option>
+              </select>
+            </div>
           </div>
       </form>
     </div>

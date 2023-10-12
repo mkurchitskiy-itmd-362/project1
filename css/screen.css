@@ -26,7 +26,7 @@ body {
     background-color: #DCDCDC;
 }
 
-#headline-container {
+.headline-container {
     padding: .5em .25em;
     display: flex;
     justify-content: space-between;
@@ -37,35 +37,39 @@ body {
 }
 
 /* === Change logo up === */
-#headline-container h2 {
+.headline-container h2 {
     
 }
 
-#info-container {
+.info-container {
     padding: 1.5em .2em;
     text-align: center;
     font-size: 1em;
     background-color: #A9A9A9;
 }
 
-#info-container h3 {
+.info-container h3 {
     padding: .25em;
     font-size: 1.15em;
     font-weight: 600;
 }
 
-#info-container p {
+.info-container p {
     padding: .5em;
 }
 
-#form-container {
+.form-container {
     padding: .25em;
     background-color: #C0C0C0;
 }
 
-#form-container p {
+.form-container p {
     font-size: 1.15em;
     text-align: center;
+}
+
+.form-container  {
+    padding: 1em 0em;
 }
 
 /* ===== STATE STYLES ======= */
