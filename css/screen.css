@@ -26,6 +26,8 @@ body {
     background-color: #DCDCDC;
 }
 
+/* HeadLine */
+
 .headline-container {
     padding: .5em .25em;
     display: flex;
@@ -40,6 +42,8 @@ body {
 .headline-container h2 {
     
 }
+
+/* Information */
 
 .info-container {
     padding: 1.5em .2em;
@@ -57,6 +61,8 @@ body {
 .info-container p {
     padding: .5em;
 }
+
+/* Form */
 
 .form-container {
     padding: 1em 0em;
@@ -89,10 +95,13 @@ body {
 }
 
 #submit {
-    padding: .25em 0em;
+    margin: .6em auto;
+    padding: .5em 0em;
     cursor: pointer;
     display: flex;
     text-align: center;
+    justify-content: center;
+    width: 75%;
 }
 
 
