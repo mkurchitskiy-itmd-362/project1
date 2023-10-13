@@ -110,7 +110,6 @@ body {
 /* ===== STATE STYLES ======= */
 
 @media screen and (min-width: 768px) {
-
     .headline-container {
         font-size: 1.5em;
     }
@@ -122,9 +121,31 @@ body {
     .form-container p {
         font-size: 1.25em;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
-    
+    .headline-container {
+        text-align: center;
+        padding: .5em .25em;
+        background-color: #808080;
+    }
+
+    .info-form-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info-container {
+        flex: 1; /* Takes up 50% of the available space (left side) */
+        padding: 1em;
+        background-color: #A9A9A9;
+    }
+
+    .form-container {
+        flex: 1; /* Takes up 50% of the available space (right side) */
+        padding: 1em;
+        background-color: #C0C0C0;
+    }
+
+
 }
