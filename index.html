@@ -21,20 +21,20 @@
     <div class="form-container">
       <form id="contact-form" method="get" action="#null" autocomplete="on">
         <p>Sign up</p>
-        <div class="question-form">
-          <div id="username-form">
+        <div id="question-form">
+          <div id="username-form" class="input-containter">
             <label for="username">Username:</label>
             <input type="text" name="username" id="username">
           </div>
-          <div id="email-form">
+          <div id="email-form" class="input-containter">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
           </div>
-          <div id="number-form">
+          <div id="number-form" class="input-containter">
             <label for="number">Number:</label>
             <input type="tel" name="number" id="number" required required pattern="^\d{10}$">
           </div>
-          <div id="engine-form">
+          <div id="engine-form" class="input-containter">
             <label for="engine-type">What engine do you have:</label>
             <select id="engine-type" name="engine-type">
               <option value="Select" selected>Select</option>
