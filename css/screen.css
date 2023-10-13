@@ -59,7 +59,7 @@ body {
 }
 
 .form-container {
-    padding: .25em;
+    padding: 1em 0em;
     background-color: #C0C0C0;
 }
 
@@ -68,9 +68,33 @@ body {
     text-align: center;
 }
 
-.form-container  {
-    padding: 1em 0em;
+#username-form {
+    padding:.25em 0em;
 }
+
+#email-form {
+    padding: .25em 0em;
+}
+
+#number-form {
+    padding: .25em 0em;
+}
+
+#engine-form {
+    padding: .25em 0em;
+}
+
+#engine-type {
+    cursor: pointer;
+}
+
+#submit {
+    padding: .25em 0em;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+
 
 /* ===== STATE STYLES ======= */
 
