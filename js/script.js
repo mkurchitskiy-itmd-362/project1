@@ -4,7 +4,7 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 $(document).ready(function () {
-  $("#contact-form").click(function () {
+  $("#submit-button").click(function () {
     alert("Thank you for subcribing, time to ride or died!");
   });
 }); 
