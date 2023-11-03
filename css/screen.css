@@ -94,6 +94,8 @@ body {
 
 #engine-type {
     cursor: pointer;
+    text-align: center;
+    width: 95%;
 }
 
 #submit {
@@ -103,7 +105,7 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 75%;
+    width: 95%;
 }
 
 
