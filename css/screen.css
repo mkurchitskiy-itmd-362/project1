@@ -71,6 +71,16 @@ body {
     text-align: center;
 }
 
+.input-container input,
+#engine-type,
+#submit {
+    margin: 10px 0; 
+    border: 1px solid #ccc;
+    padding: 12px; 
+    width: 95%; 
+    box-sizing: border-box;
+}
+
 #question-form {
     margin: 0 auto;
     text-align: center;
@@ -149,5 +159,27 @@ body {
         background-color: #C0C0C0;
     }
 
+    #question-form {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+    }
 
+    .input-container {
+        width: auto; 
+        max-width: 400px; 
+    }
+
+    .input-container input,
+    #engine-type,
+    #submit {
+        width: 100%; 
+    }
+
+    #submit-button {
+        display: flex;
+        justify-content: center;
+        width: 100%; 
+    }
 }
